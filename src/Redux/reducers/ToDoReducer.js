@@ -1,8 +1,9 @@
 import {ADD_TODO,EDIT_TODO,DELETE_TODO,COMPLETE_TODO,FILTER} from '../elements/ExportElemnts'
 
 const initState={
-    todos:[{id:1,text:"Learn HTML",isDone:false},
-           {id:2,text:"Learn CSS",isDone:false},
+    todos:[{id:1,text:"Watch world cup",isDone:false},
+           {id:2,text:"Visit Scotland",isDone:false},
+           {id:3,text:"Make first app live",isDone:false},
     ],
     filtertodos:"no-filter"
 }
