@@ -58,7 +58,7 @@ closeModal()
           <form onSubmit={handleSubmit}>
             <input type="text" value={text} onChange={(e)=>setText(e.target.value)} />
           </form>
-          <button type="submit">confirm</button>
+  
           <button onClick={closeModal}>close</button>
         </Modal>
       </div>
